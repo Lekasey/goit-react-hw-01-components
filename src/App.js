@@ -9,6 +9,7 @@ import transactions from './components/TransactionList/transactions.json'
 import TransactionHistory from './components/TransactionList/TransactionHistory'
 
 
+
 function App() {
   return (
     <div className="App">

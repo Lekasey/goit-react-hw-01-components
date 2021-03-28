@@ -3,12 +3,15 @@ import PropTypes from 'prop-types';
 import StatisticsItem from './StatisticsItem'
 import styles from './Statistics.module.css'
 
+ 
+
+
 const Statistics = ({ title, stats }) => (
-<section clsaaName={styles.statistics}>
+<section className={styles.statistics}>
     {title && <h2 className={styles.title}>{title}</h2>}    
     <ul className={styles.statList}>
         {stats.map(({ id, label, percentage }) => (
-        <StatisticsItem 
+        <StatisticsItem
                 key={id}
                 label={label} 
                 percentage={percentage}
