@@ -1,4 +1,4 @@
-import TransactionItem from './TransactionItem';
+import TransactionItem from '../TransactionItem/TransactionItem';
 import PropTypes from 'prop-types'
 import styles from './TransactionHistory.module.css'
 

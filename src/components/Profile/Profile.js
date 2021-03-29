@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 // import React from 'react';
 import defaultImage from './noimage.jpg' 
-import StatsItem from './StatsItem';
+import StatsItem from '../ProfileStats/ProfileStats';
 import styles from './Profile.module.css'
 
 const Profile = ({ name, avatar, tag, location, stats }) => (

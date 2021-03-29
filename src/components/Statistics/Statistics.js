@@ -1,6 +1,6 @@
 // import React from 'react';
 import PropTypes from 'prop-types';
-import StatisticsItem from './StatisticsItem'
+import StatisticsItem from '../StatisticsItem/StatisticsItem'
 import styles from './Statistics.module.css'
 
  
