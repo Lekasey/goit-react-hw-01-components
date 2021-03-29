@@ -9,20 +9,19 @@
     margin-bottom: 5px;
 }
 
-.online {
+.status {
     display: block;
     width: 10px;
     height: 10px;
     border-radius: 50%;
     margin-right: 20px;
+}
+.online {
+    composes: status;
     background-color: green;
 }
 
 .offline {
-    display: block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin-right: 20px;
+    composes: status;
     background-color: red;
 }
